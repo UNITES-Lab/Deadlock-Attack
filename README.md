@@ -1,2 +1,3 @@
-# Deadlock-Attack
-[NeurIPS25] "One Token Embedding Is Enough to Deadlock Your Large Reasoning Model" by Mohan Zhang*, Yihua Zhang*, Jinghan Jia, Zhangyang Wang, Sijia Liu, and Tianlong Chen
+# One Token Embedding Is Enough to Deadlock Your Large Reasoning Model (NeurIPS 2025)
+
+![Demo](assets/demo.gif)
