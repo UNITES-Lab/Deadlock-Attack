@@ -117,6 +117,22 @@ Deadlock-Attack/
     └── demo.gif               # Demo animation
 ```
 
+## 📝 Citation
+
+If you find this work useful, please cite our paper:
+
+```bibtex
+@misc{zhang2025tokenembeddingdeadlocklarge,
+      title={One Token Embedding Is Enough to Deadlock Your Large Reasoning Model}, 
+      author={Mohan Zhang and Yihua Zhang and Jinghan Jia and Zhangyang Wang and Sijia Liu and Tianlong Chen},
+      year={2025},
+      eprint={2510.15965},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2510.15965}, 
+}
+```
+
 ## ⚠️ Responsible Use
 
 This research is intended for academic purposes and to improve the security of Large Reasoning Models. Please use this code responsibly and ethically. We do not endorse malicious use of this attack against production systems.
@@ -124,7 +140,7 @@ This research is intended for academic purposes and to improve the security of L
 ## 🙏 Acknowledgments
 
 We thank the open-source community for providing the foundation models and datasets used in this research:
-- DeepSeek team for DeepSeek-R1 models
-- Meta AI for Llama models
-- Microsoft for Phi models
-- HuggingFace for dataset hosting
+- **DeepSeek-AI** for releasing the DeepSeek-R1 series, including **DeepSeek-R1-Distill-Qwen-7B** and **DeepSeek-R1-Distill-Llama-8B**.
+- **Microsoft** for developing the Phi-4-Reasoning family, including **Phi-4-mini-reasoning**
+- **NVIDIA** for the Llama-Nemotron series, including **Llama-3.1-Nemotron-Nano-8B-v1**
+- **HuggingFace** for hosting and maintaining open access to the above models and benchmark datasets.
